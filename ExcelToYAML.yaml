@@ -1,6 +1,6 @@
 version: 1 
 owners:
-  groups: glossarysuperuser
+  users: mhreader
     - # add users here
 nodes:
   - name: Quality and Regulatory

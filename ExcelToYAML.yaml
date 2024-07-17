@@ -1,7 +1,7 @@
 version: 1 
 owners: 
-  users: 
-    - mhreader
+  groups: 
+    - glossarysuperuser
 nodes:
   - name: Quality and Regulatory
     id: urn:li:glossaryNode:0c7f5208-737c-4584-b947-adfac03ccf73

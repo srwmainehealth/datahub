@@ -1,5 +1,5 @@
 version: 1 
-owners: dhadmin
+owners: 
   users: 
     - mhreader
 nodes:
@@ -53,7 +53,7 @@ nodes:
         domain: Executive
       - name: Food Insecurity Screening Inpatient Percentage
         description: | 
-          **Alias**: Community; Social determinants of health (SDOH) 
+          **Alias**: Community; Social determinants of health (SDOH)Â 
           **Type**: Metric
           **Epic ID**: N/A
 
@@ -64,7 +64,7 @@ nodes:
         domain: Executive
       - name: Food Insecurity Screening Outpatient Rate
         description: | 
-          **Alias**: Community; Social determinants of health (SDOH) 
+          **Alias**: Community; Social determinants of health (SDOH)Â 
           **Type**: Metric
           **Epic ID**: N/A
 
@@ -75,7 +75,7 @@ nodes:
         domain: Executive
       - name: Housing Instability Screening Inpatient Percentage
         description: | 
-          **Alias**: Community; Social determinants of health (SDOH) 
+          **Alias**: Community; Social determinants of health (SDOH)Â 
           **Type**: Metric
           **Epic ID**: N/A
 
@@ -86,7 +86,7 @@ nodes:
         domain: Executive
       - name: Interpersonal Safety Screening Inpatient Percentage
         description: | 
-          **Alias**: Community; Social determinants of health (SDOH) 
+          **Alias**: Community; Social determinants of health (SDOH)Â 
           **Type**: Metric
           **Epic ID**: N/A
 
@@ -421,7 +421,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: This metric measures the Net Promoter Score (NPS) for the email/phone survey question, “How likely would you be to recommend this office to your family and friends?”.  The NRC Health Patient Experience Survey is sent to a patients that have had an ambulatory visit. This measure is captured for the past rolling 3 months.
+          **Description**: This metric measures the Net Promoter Score (NPS) for the email/phone survey question, Â“How likely would you be to recommend this office to your family and friends?Â”.  The NRC Health Patient Experience Survey is sent to a patients that have had an ambulatory visit. This measure is captured for the past rolling 3 months.
 
           **Business Logic**: N/A
         domain: Executive
@@ -454,7 +454,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: Percentage of encounters with an unplanned readmission to the same facility within 30 days  for any cause among encounters for acute care inpatients with a principal discharge diagnosis/procedure for a clinical classification category in the Cardiorespiratory, Cardiovascular, Medicine, Neurology, or Surgery/Gynecology cohort. The readmission could be for any reason, not necessarily related to the initial cause of hospitalization. A high readmission rate can indicate issues with the quality or effectiveness of care, or patient’s compliance with post-discharge instructions.
+          **Description**: Percentage of encounters with an unplanned readmission to the same facility within 30 days  for any cause among encounters for acute care inpatients with a principal discharge diagnosis/procedure for a clinical classification category in the Cardiorespiratory, Cardiovascular, Medicine, Neurology, or Surgery/Gynecology cohort. The readmission could be for any reason, not necessarily related to the initial cause of hospitalization. A high readmission rate can indicate issues with the quality or effectiveness of care, or patientÂ’s compliance with post-discharge instructions.
 
           **Business Logic**: N/A
         domain: Executive
@@ -509,7 +509,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: Median time from emergency department arrival to time of departure from the emergency room for patients discharged from the emergency department. Endorsed by the National Quality Forum, reported to CMS. Includes any ED patient from the facility’s emergency department. Excludes transfer patients, behavioral health, patients who expired in the emergency department.
+          **Description**: Median time from emergency department arrival to time of departure from the emergency room for patients discharged from the emergency department. Endorsed by the National Quality Forum, reported to CMS. Includes any ED patient from the facilityÂ’s emergency department. Excludes transfer patients, behavioral health, patients who expired in the emergency department.
 
           **Business Logic**: N/A
         domain: Executive
@@ -553,7 +553,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: The Leapfrog Hospital Safety Grade uses up to 30 national performance measures from the Centers for Medicare & Medicaid Services (CMS), the Leapfrog Hospital Survey and information from other supplemental data sources. Taken together, those performance measures produce a single letter grade representing a hospital’s overall performance in keeping patients safe from preventable harm and medical errors. For more information about the methodology: https://www.hospitalsafetygrade.org/your-hospitals-safety-grade/about-the-grade
+          **Description**: The Leapfrog Hospital Safety Grade uses up to 30 national performance measures from the Centers for Medicare & Medicaid Services (CMS), the Leapfrog Hospital Survey and information from other supplemental data sources. Taken together, those performance measures produce a single letter grade representing a hospitalÂ’s overall performance in keeping patients safe from preventable harm and medical errors. For more information about the methodology: https://www.hospitalsafetygrade.org/your-hospitals-safety-grade/about-the-grade
 
           **Business Logic**: N/A
         domain: Executive
@@ -619,7 +619,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: This metric is a count of select patient harm events that are reviewed in real-time and shared institutional-wide to raise awareness and address causative factors. Patient harm events include patient falls with injury, healthcare associated infections, sentinel events, and patient safety indicators. Further information and criteria for each event are defined by the following external reporting agencies: the Agency of Healthcare Quality & Research, the American Nursing Association National Database of Nursing Quality Indicators, the Maine Department of Health and Human Services and US CDC’s National Healthcare Safety Network.A lower harm event count is an indicator of safer, higher-quality care.
+          **Description**: This metric is a count of select patient harm events that are reviewed in real-time and shared institutional-wide to raise awareness and address causative factors. Patient harm events include patient falls with injury, healthcare associated infections, sentinel events, and patient safety indicators. Further information and criteria for each event are defined by the following external reporting agencies: the Agency of Healthcare Quality & Research, the American Nursing Association National Database of Nursing Quality Indicators, the Maine Department of Health and Human Services and US CDCÂ’s National Healthcare Safety Network.A lower harm event count is an indicator of safer, higher-quality care.
 
           **Business Logic**: N/A
         domain: Executive
@@ -685,7 +685,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: This metrics calculates the percentage of Home Health patients who were seen in their home within two days of being referred to home health care.The time window begins either 1) on the date the doctor ordered 2) the day the agency was notified of the order or 3) coming home from the hospital or other facility. The doctor’s order may or may not specify a start date. If the order doesn’t include a specific start date, home health care should start either within 2 days after the agency was notified of the order or the date the patient was discharged.
+          **Description**: This metrics calculates the percentage of Home Health patients who were seen in their home within two days of being referred to home health care.The time window begins either 1) on the date the doctor ordered 2) the day the agency was notified of the order or 3) coming home from the hospital or other facility. The doctorÂ’s order may or may not specify a start date. If the order doesnÂ’t include a specific start date, home health care should start either within 2 days after the agency was notified of the order or the date the patient was discharged.
 
           **Business Logic**: N/A
         domain: Executive

@@ -1,0 +1,988 @@
+version: 1 
+owners: dhadmin
+  users: 
+    - mhreader
+nodes:
+  - name: Quality and Regulatory
+    id: urn:li:glossaryNode:0c7f5208-737c-4584-b947-adfac03ccf73
+    description: This folder contains all the Quality and Regulatory dashboards, metrics, and terms.
+    terms:
+      - name: Ethnic Background Screening Rate
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The percentage of patients that had their ethnic background identified in a face-to-face encounter during the reporting month.  The numerator is non-White patients with Ethnic Background identified divided by the denominator of all non-White patients, including those with ethnic background listed as unknown, declined, or blank who had an encounter (includes hospital encounters, excludes appointment encounter types and test patients) during the reporting month.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Ethnic Background and Ethnicity Screening Rate Average
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The metric calculates the average rate of capturing either ethnic background or ethnicity for all non-White patients.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Ethnicity Screening Rate
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The percentage of non-white patients that had their ethnicity identified in a face-to-face encounter during the reporting month. The numerator is non-White patients with ethnicity identified divided by the denominator of all non-White patients, including those with ethnicity listed as unknown, declined, or blank who had an encounter (includes hospital encounters, excludes appointment encounter types and test patients) during the reporting month.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Food Insecurity Positivity  Rate
+        description: | 
+          **Alias**: Community; Social determinants of health (SDOH) 
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric captures the proportion of patients with food insecurity. Adults who are food insecure may be at an increased risk for a variety of negative health outcomes and health disparities.  The numerator equals the number of patients 18 years or older that screened positive for food insecurity during their stay. The denominator is the number of patients 18 years or older that were screened for food insecurity during their stay.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Food Insecurity Screening Inpatient Percentage
+        description: | 
+          **Alias**: Community; Social determinants of health (SDOH) 
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the percentage of patients who are screened for food insecurity during an inpatient hospital stay.  The patient is screened through a standardized health-related social needs screening tool. Screening for social drivers of health help medical providers better understand those social needs and their root causes. The numerator is the number of patients 18 years and older screened for food insecurity during their hospital inpatient stay. The denominator is the total number of patients 18 years and older admitted for an inpatient hospital stay and excludes patients with a discharge disposition of "Left Against Medical Advice" or "Left Without Being Seen" or patients who opt-out of screening.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Food Insecurity Screening Outpatient Rate
+        description: | 
+          **Alias**: Community; Social determinants of health (SDOH) 
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Patients with a well-child visit, physical, or AWV in the last year who were screened for food insecurity in the last year. The numerator is patients with a well-child visit, physical, or AWV in the last year who were screened for food insecurity in the last year divided by the denominator of all patients with a well-child visit, physical, or AWV in the last year.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Housing Instability Screening Inpatient Percentage
+        description: | 
+          **Alias**: Community; Social determinants of health (SDOH) 
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the percentage of patients who are screened for housing instability during an inpatient hospital stay.  The patient is screened through a standardized health-related social needs screening tool. Screening for social drivers of health help medical providers better understand those social needs and their root causes. The numerator is the number of patients 18 years and older screened for housing instability during their hospital inpatient stay. The denominator is the total number of patients 18 years and older admitted for an inpatient hospital stay and excludes patients with a discharge disposition of "Left Against Medical Advice" or "Left Without Being Seen" or patients who opt-out of screening.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Interpersonal Safety Screening Inpatient Percentage
+        description: | 
+          **Alias**: Community; Social determinants of health (SDOH) 
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the percentage of patients who are screened for interprersonal safety during an inpatient hospital stay.  The patient is screened through a standardized health-related social needs screening tool. Screening for social drivers of health help medical providers better understand those social needs and their root causes. The numerator is the number of patients 18 years and older screened for interpersonal safety during their hospital inpatient stay. The denominator is the total number of patients 18 years and older admitted for an inpatient hospital stay and excludes patients with a discharge disposition of "Left Against Medical Advice" or "Left Without Being Seen" or patients who opt-out of screening.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Preferred Language Screening Rate
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Preferred Language screening rate is the percentage of non-English speaking patients that had a face-to-face encounter during the reporting month that had preferred language identified.  The numerator is all non-English speaking patients with preferred language identified divided by the denominator of all non-English speaking patients, including those with preferred language listed as other, unknown, declined, miscellaneous, or blank who had an encounter (includes hospital encounters, excludes appointment encounter types and test patients) during the reporting month.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Preferred Language and Written Language Screening Rate Average
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the average of the Preferred Language Screening Rate and Written Language Screening Rate.  The numberator is calculated as the sum of all non-English speaking patients with preferred language identified and written language identified divided by two. The denominator of all non-English speaking patients, including those with preferred language listed as other, unknown, declined, miscellaneous, or blank who had an encounter (includes hospital encounters, excludes appointment encounter types and test patients) during the reporting month.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Race Screening Rate
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The percentage of non-White patients that had a face-to-face encounter during the reporting month that had their race identified.  The numerator is non-white patients with race identified divided by the denominator of all non-White patients, including those with race listed as other, unknown, declined, or blank  who had an encounter (includes hospital encounters, excludes appointment encounter types and test patients) during the reporting month.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Transportation Needs Screening Inpatient Percentage
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the percentage of patients who are screened for transportation needs during an inpatient hospital stay.  The patient is screened through a standardized health-related social needs screening tool. Screening for social drivers of health help medical providers better understand those social needs and their root causes. The numerator is the number of patients 18 years and older screened for transportation needs during their hospital inpatient stay. The denominator is the total number of patients 18 years and older admitted for an inpatient hospital stay and excludes patients with a discharge disposition of "Left Against Medical Advice" or "Left Without Being Seen" or patients who opt-out of screening.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Utility Difficulties Screening Inpatient Percentage
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the percentage of patients who are screened for utility difficulties during an inpatient hospital stay.  The patient is screened through a standardized health-related social needs screening tool. Screening for social drivers of health help medical providers better understand those social needs and their root causes. The numerator is the number of patients 18 years and older screened for utility difficulties during their hospital inpatient stay. The denominator is the total number of patients 18 years and older admitted for an inpatient hospital stay and excludes patients with a discharge disposition of "Left Against Medical Advice" or "Left Without Being Seen" or patients who opt-out of screening.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Written Language Screening Rate
+        description: | 
+          **Alias**: Community
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Written Language Screening Rate is the percentage of non-English speaking patients that had a face-to-face encounter during the reporting month with written language identified.  The numerator is all non-English speaking patients with written language identified divided by the denominator of all non-English speaking patients, including those with written language listed as other, unknown, declined, miscellaneous, or blank   who had an encounter (includes hospital encounters, excludes appointment encounter types and test patients) during the reporting month.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Palliative Care Referral for Oncology Patients 
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the proportion of specific oncology patients that obtained a palliative care referral within eight weeks of the first medical oncology appointment. The numerator counts the number of  palliative referral or inpatient palliative consults completed 8-weeks after the first medical oncology visit. If a patient was referred to palliative care prior to the consult, this patient will count as compliant. The denominator includes all patients diagnosed with Lung Stage IIIb, any Stage IV Solid Cancer or diagnosed with any Glioblastoma that had 1 completed medical oncology visit within the MaineHealth Cancer Care Network.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Transitional Care Management Billed Visit Count
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric counts the number of transitional care management (TCM) visits or services that are billed.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Transitional Care Management Call Count
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric counts the number of calls made by transitional care management staff (TCM).
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Contract Labor Spend
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Contract Labor Expenditure refers to the total financial expenditure incurred by a healthcare organization for employing contract labor, including independent practitioners, temporary workers, or staffing agencies. This includes, but is not limited to, wages, benefits, and any other associated costs.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Contract Labor Spend Budget
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Contract Labor Spend Budget refers to the financial allocation set aside by a healthcare institution for the purpose of hiring and compensating contract-based labor, including but not limited to temporary nurses, therapists, or other healthcare professionals. This budget includes all expenses related to contract labor such as wages, benefits, recruitment costs, and any additional fees associated with contract employment.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Contract Labor Spend Percentage Budget Variance
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Contract Labor Percentage Budget Variance is the percentage difference between what has been budgeted for contract labor costs and the actual amount spent on contract labor. It is calculated by subtracting the budgeted amount for contract labor from the actual contract labor costs, dividing this difference by the budgeted amount, and then multiplying the result by 100.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gross Patient Service Revenue Daily Average Budget
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Gross Patient Services Revenue Daily Average Budget is the total gross revenue budgeted, divided by the number of days in the budget period. The numerator is the total gross revenue budgeted for a specified period, and the denominator is the number of days in that period.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gross Patient Services Revenue
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Gross Patient Services Revenue refers to the total charges for all services provided to patients before any deductions for contractual allowances, charity care, bad debts, and other adjustments. This includes revenues from inpatient care, outpatient care, and other ancillary services or in other words, total revenue for accounts where the Account Class is "Gross Patient Service Revenue".
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gross Patient Services Revenue Budget
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Gross Patient Services Revenue Budget refers to the projected income a healthcare facility expects to receive from all patient services before any deductions such as contractual allowances, bad debts, or charity care. It is calculated by multiplying the expected volume of each service by the current charge for that service, then summing the total for all services.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gross Patient Services Revenue Daily Average
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Average Daily Gross Patient Services Revenue is the total gross revenue generated from all patient services in a day. This is calculated by dividing the total gross patient services revenue in a given period by the number of days in that period.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gross Patient Services Revenue Daily Average Budget Variance
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Gross Patient Service Revenue Daily Average Budget Variance  refers to the difference between the budgeted daily gross revenue and the actual daily gross revenue, measured in dollars. It is calculated by subtracting the budgeted daily gross revenue from the actual daily gross revenue.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gross Patient Services Revenue Percentage Budget Variance
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Gross Patient Services Revenue % Budget Variance is the percentage difference between the actual gross revenue earned from patient services and the budgeted or projected gross revenue. It is calculated by subtracting the budgeted gross patient services revenue from the actual gross patient services revenue, dividing the result by the budgeted gross patient services revenue, and then multiplying by 100 to get the percentage.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Operating Margin Outstanding Percentage
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Operating Margin Outstanding  Percentage is a ratio that depicts a hospital's profitability from its operations, expressed as a percentage. It is calculated by taking the Operating Income (numerator), which is the difference between revenues and expenses related to core operations, and dividing it by the Total Revenue (denominator), which includes all sources of income for the hospital.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Operating Margin Outstanding Percentage Variance
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Operating Margin Outstanding Percentage Variance is the percentage difference between the actual operating margin and the projected or budgeted operating margin. It is calculated by subtracting the projected operating margin from the actual operating margin, dividing the result by the projected operating margin, and then multiplying by 100 to convert the result into a percentage.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Operating Margin Percentage
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Operating Margin % is a financial metric calculated by dividing the operating income by the total revenue, then multiplying the result by 100. It represents the percentage of total revenue that a hospital retains after incurring the direct costs associated with providing the healthcare services.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Operating Margin Target Percentage
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Operating Margin Target Percentage is a financial metric used by healthcare organizations to measure the proportion of revenue left over after paying for variable costs  such as wages, supplies, etc. It is calculated by subtracting target total operating expenses from total revenue, divided by target total revenue, and multiplied by 100.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Operating Margin Target Percentage Variance
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Operating Margin Target Percentage Variance refers to the difference between a hospital's actual operating margin percentage and its targeted operating margin percentage. The calculation involves subtracting the targeted percentage from the actual percentage. It serves as an indicator of the hospital's operational efficiency in comparison to its set goals.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Operating Margin Threshold Percentage
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Operating Margin Threshold Percentage refers to the minimum percentage of total revenue that a hospital or healthcare organization aims to achieve as profit after deducting operating costs. It is calculated by dividing threshold operating income (total revenue minus operating expenses) by threshold total revenue, and multiplying the result by 100.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Operating Margin Threshold Percentage Variance
+        description: | 
+          **Alias**: Financial Health
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Operating Margin Threshold Percentage Variance is the percentage difference between a hospital's actual operating margin and a predetermined threshold. It is calculated by subtracting the threshold from the actual operating margin, dividing the difference by the threshold, and then multiplying by 100.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Primary Care Panel Size
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Total patients attributed to a Maine Health primary care provider (PCP) and seen by a physician or advanced care provider (APP) at a Maine Health primary care departmen in the last 3 years. This is captured through the Epic functionality of primary care provider assignment, where the PCP is flagged as a type of general.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Diabetes Population Disparities Gap in HbA1c Control Rate
+        description: | 
+          **Alias**: DM HbA1c, Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Difference in HbA1c Poor Control rates between patients with Commercial Insurance and patients with Medicaid/No insurance.Poor control of blood glucose levels over a long period can lead to serious complications such as heart disease, kidney disease, nerve damage, and vision problems. Therefore, individuals with diabetes are advised to monitor their HbA1c levels regularly and take necessary measures to keep it under control.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gallup Survey Engagement Score for Care Team
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is provided by the Gallup  Survey on Engagement and Safety Culture. It is given to all employees once a year. This metric is a composite score that represents the engagement for the care team.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gallup Survey Patient Safety Rating for Care Team
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is a leading indicator based on employee responses to the question, "How would you rate your unit (work area) on patient safety" for the Care Team from the Gallup Survey.  The rating is on a scale of 1 to 5 and this is an annual survey distributed to employees.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Patient Experience Net Promoter Score Ambulatory
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the Net Promoter Score (NPS) for the email/phone survey question, “How likely would you be to recommend this office to your family and friends?”.  The NRC Health Patient Experience Survey is sent to a patients that have had an ambulatory visit. This measure is captured for the past rolling 3 months.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Heart Failure Mortality Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the percentage of patients who die from heart failure in a specific period of time. It is calculated as the number of in-hospital deaths per 1,000 hospital discharges with a principal diagnosis of heart failure for patients ages 18 years and older. Excludes discharges with a procedure for heart transplant, discharges admitted from a hospice facility, transfers to another hospital, and obstetric discharges. This rate can vary based on factors such as the severity of heart failure, the patient's age and overall health, and the quality of care received.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Pneumonia Mortality Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the percentage of patients who die from pneumonia in a certain time frame. It's calculated as in-hospital deaths per 1,000 hospital discharges with a principal diagnosis of pneumonia or a principal diagnosis of sepsis with a secondary diagnosis of pneumonia present on admission, for patients ages 18 years and older. Excludes discharges with severe sepsis present on admission, transfers to another hospital, discharges admitted from a hospice facility, and obstetric discharges. Factors influencing this rate can include the type and severity of pneumonia, the patient's age and overall health, and the quality of care.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Readmission Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Percentage of encounters with an unplanned readmission to the same facility within 30 days  for any cause among encounters for acute care inpatients with a principal discharge diagnosis/procedure for a clinical classification category in the Cardiorespiratory, Cardiovascular, Medicine, Neurology, or Surgery/Gynecology cohort. The readmission could be for any reason, not necessarily related to the initial cause of hospitalization. A high readmission rate can indicate issues with the quality or effectiveness of care, or patient’s compliance with post-discharge instructions.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Heart Failure Readmission Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Percentage of encounters with an unplanned readmission to the same facility within 30 days among encounters for acute care inpatients with a principal discharge diagnosis of heart failure. This rate is often used as a measure of the quality of heart failure care. High rates may suggest that initial treatments were not effective, or that follow-up care and instructions were not adequate to keep the patient's condition stable after discharge.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Pneumonia Readmission Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the percentage of encounters with an unplanned readmission to the same facility within 30 days among encounters for acute care inpatients with a principal discharge diagnosis of pneumonia or a principal discharge diagnosis of sepsis (not including severe sepsis or septic shock) with a secondary diagnosis of pneumonia or aspiration pneumonia coded as POA, and no secondary diagnosis of severe sepsis or septic shock coded as POA. This rate can be an indicator of the quality of care provided during the initial hospital stay or the effectiveness of post-discharge care and instructions. A higher rate might indicate that initial treatments were not effective or that patients did not receive appropriate care or instructions after discharge.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Unplanned Hospital Visit after Outpatient Surgery Ratio
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the proportion of patients who have to visit the hospital unexpectedly following an outpatient surgery within 7 days of the same-day surgery. The visit could be due to complications, infection, or other issues related to the surgery. The ratio is calculated as the number of unplanned visits divided by the total number of outpatient surgeries. A higher ratio may suggest issues with the quality of surgical care or post-surgery instructions. It can serve as a quality indicator for healthcare institutions and help identify areas for improvement.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Severe Sepsis Management Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure focuses on adults 18 years and older with a diagnosis of severe sepsis or septic shock. Consistent with Surviving Sepsis Campaign guidelines, it assesses measurement of lactate, obtaining blood cultures, administering broad spectrum antibiotics, fluid resuscitation, vasopressor administration, reassessment of volume status and tissue perfusion, and repeat lactate measurement. As reflected in the data elements and their definitions, the first three interventions should occur within three hours of presentation of severe sepsis, while the remaining interventions are expected to occur within six hours of presentation of septic shock.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Emergency Department Arrival to Departure Time Median
+        description: | 
+          **Alias**: ED, Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Median time from emergency department arrival to time of departure from the emergency room for patients discharged from the emergency department. Endorsed by the National Quality Forum, reported to CMS. Includes any ED patient from the facility’s emergency department. Excludes transfer patients, behavioral health, patients who expired in the emergency department.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart eRegistration Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is the percentage of appointments where the patient arrived and completed the eCheck-in process. This includes all appointments where the appointment status corresponds to Completed in Cadence System Definitions or the Arrived status and the eCheck-In status is equal to Completed. Walk-in appointments are excluded.Note: The Epic eCheck In process is referred to as MyChart eRegistration at MaineHealth.  The terms are synonymous.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: CMS Care Compare Patient Survey Rating
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The patient survey rating corresponds to the CMS Compare Star Rating at the local health system level and is on a scale of 1-5.  This rating is updated annually once a year.https://www.medicare.gov/care-compare/
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Net Promoter Score 
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Net Promoter Score (NPS) is a common metric used in customer experience programs. An NPS score measures customer loyalty by looking at their likelihood of recommending. NPS score is measured with a single-question survey and reported with a number ranging from -100 to +100, where a higher score is desirable.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Leapfrog Hospital Safety Grade
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The Leapfrog Hospital Safety Grade uses up to 30 national performance measures from the Centers for Medicare & Medicaid Services (CMS), the Leapfrog Hospital Survey and information from other supplemental data sources. Taken together, those performance measures produce a single letter grade representing a hospital’s overall performance in keeping patients safe from preventable harm and medical errors. For more information about the methodology: https://www.hospitalsafetygrade.org/your-hospitals-safety-grade/about-the-grade
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Net Promoter Score Arithmetic Mean
+        description: | 
+          **Alias**: People
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the arithmetic mean of the Fiscal Year to Date Overal Real-Time NPS, Ambulatory Real-Time NPS and HCAHPS Paper Survey NPS Equivalent.  The Ambulatory Real-Time NPS is a subgroup of the Overall Real-Time NPS from the Real-Time survey and represents the MaineHealth Medical Group. HCAHPS is a separate paper survey.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Net Promoter Score Fiscal Year To Date Overall Real Time
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The FYTD (Fiscal Year to Date) Overall Real Time Net Promoter Score refers to the Net Promoter Score calculated from the start of the fiscal year to the current date. This score is updated in real-time and is based on Real-Time survey results (NRC Health Patient Experience Survey).
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Net Promoter Score Equivalent HCAHPS Paper Survey
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) survey is the first national, standardized, publicly reported survey of patients' perspectives of hospital care. While it's not directly equivalent to Net Promoter Score (NPS), both metrics aim to measure customer (or patient) satisfaction and loyalty.Although the HCAHPS survey doesn't include the NPS question exactly, the question "Would you recommend this hospital to your friends and family?" is similar in nature and could be considered an equivalent to the NPS question within the context of hospital care. The responses to this question can give a sense of the hospital's performance in terms of patient loyalty and satisfaction, similar to NPS.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: My Chart Self Scheduled Visit Count
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is the count of visits self-scheduled by patients in MyChart. Visits scheduled by patients are more efficient and patients are able to choose the time that works best.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Length of Stay Observed to Expected Ratio
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is a ratio comparing the observed length of stay to the expected length of stay. This ratio is a marker of performance and a ratio of less than or equal to 1.00 indicates the lenth of stay rate is better than expected.  Values greater than 1.00 indicate the length of stay rate is worse than expected.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Harm Event Count
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is a count of select patient harm events that are reviewed in real-time and shared institutional-wide to raise awareness and address causative factors. Patient harm events include patient falls with injury, healthcare associated infections, sentinel events, and patient safety indicators. Further information and criteria for each event are defined by the following external reporting agencies: the Agency of Healthcare Quality & Research, the American Nursing Association National Database of Nursing Quality Indicators, the Maine Department of Health and Human Services and US CDC’s National Healthcare Safety Network.A lower harm event count is an indicator of safer, higher-quality care.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Telehealth Audiovisual Encounter Count
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the count of audiovisual telehealth visits completed.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Remote Monitoring Program Enrollment Count
+        description: | 
+          **Alias**: People
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is a cumulative count of patients actively enrolled in Remote Monitoring Programs (CHF Remote Monitoring, MHCAH and CHANS Home Care, RPM Diabetes Quality Project).
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Employee Engagement Net Promoter Score
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the Net Promoter Score (NPS) for the for the email or phone survey question: How likely would you be to recommend this facility [or medical office] to your family and friends? Response scale: 0 = Not at all likely and 10 = Extremely likely.  This question is from the NRC Health Patient Experience Survey (i.e. Real-Time Survey) that is sent to patients.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart AutoPay Payment Plan Percentage
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is the percentage of MyChart payment plans active and setup to use AutoPay in SBO service areas and counts PB or SBO payment plans.AutoPay allows patients to automatically pay their bills on a schedule, which can make managing healthcare costs more convenient.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Behavioral Health Alcohol  Use Disorder Treatment at Discharge Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The percentage of patients who screened positive for an alcohol or drug use disorder during their inpatient stay who, at discharge, either: (1) received or refused a prescription for medications to treat their alcohol or drug use disorder OR (2) received or refused a referral for addiction treatment.This rate is a significant measure of the quality of care in substance use disorder treatment programs. It indicates how well these programs are preparing patients for continued recovery after they leave the program.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Home Health Timely Initiation of Care Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metrics calculates the percentage of Home Health patients who were seen in their home within two days of being referred to home health care.The time window begins either 1) on the date the doctor ordered 2) the day the agency was notified of the order or 3) coming home from the hospital or other facility. The doctor’s order may or may not specify a start date. If the order doesn’t include a specific start date, home health care should start either within 2 days after the agency was notified of the order or the date the patient was discharged.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Home Health Ambulation Improvement Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of Home Health patients who improved their ability to walk or move around through assistance from the home health team.This is a measure of the effectiveness of the care provided, as improving a patient's mobility can significantly enhance their quality of life and independence.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Home Health Bed Transfer Improvement Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of Home Health patients who improved their ability to get in and out of bed through assistance from the home health team.This skill is crucial for personal independence and is often a focus of home healthcare, particularly for patients who have been hospitalized or have mobility issues.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Home Health Self Bathing Improvement Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of Home Health patients who improved their ability to bathe through assistance from the home health team.This metric is an indication of a patient's independence and physical ability, which are often key goals of home healthcare.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Home Health Dyspnea Improvement Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of Home Health patients who improved their breathing, meaning patients had less shortness of breath.Improvement in dyspnea can significantly improve a patient's comfort and quality of life, particularly for patients with conditions such as chronic obstructive pulmonary disease (COPD) or heart failure.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Home Health Oral Medication Management  Improvement Rate
+        description: | 
+          **Alias**: People
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of Home Health pateints who showed an improvement in taking their prescription and other drugs correctly (including prescription drugs, over-the-counter drugs, vitamins, and herbal supplements). The measure includes only drugs the patient takes by mouth.Improving a patient's medication management skills can help to prevent medication errors, enhance treatment effectiveness, and reduce the risk of hospital readmissions.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Turnover of Care Team Percentage
+        description: | 
+          **Alias**: People
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the percentage of headcount turnover of the past 4 quarters (with end dates in March, June, September, and December). This excludes per diem and PD and Physicians.  The numberator is a count of turnover in the last 4 quarters and the denominator is an average headcount of the prior 4 quarters.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Gallup Survey Engagement Score for Providers
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is provided by the Gallup  Survey on Engagement and Safety Culture. It is given to all employees once a year. This metric is a composite score that represents the engagement for providers.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Hand Hygiene Compliance at Patient Room Enter and Exit
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the percentage Hand Hygiene Compliance with hand hygiene which is using alcohol hand sanitizer or soap & water before entering a patient's room/cubicle AND/OR after leaving a ptient's room or cubicle. The numerator is the total Hand Hygiene Observations where hand hygiene is completed for entering plus total hand hygiene observations where hand hygiene is completed upon exiting the patient room.  The denominator is the total observations for entering plus total observations for exiting the patient room.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Behavioral Health Metabolic Disorder Screening Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This screening rate captures the percentage of patients who had who had body mass index, blood pressure, blood sugar, and cholesterol level screenings in the past year. People with behavioral health conditions are at a higher risk for metabolic disorders such as diabetes, obesity, and metabolic syndrome. This rate is an important measure in healthcare to ensure these high-risk individuals are receiving appropriate preventative care and treatment. However, the specific rate can vary based on factors like location, the specific population being studied, and the time period.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart Active Users Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is a percentage of patients with an active MyChart account. The numerator is a count of patients with a visit in the past year and have an active MyChart account at the end of each month.  The denominator is a count of patients with a visit in the past year.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Behavioral Health Transition Record Received Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The percentage of patients discharged from an inpatient psychiatric facility who received (or whose caregive received) a complete record of inpatient psychiatric care and plans for follow-up.This rate is an important measure of the continuity and coordination of care for patients with behavioral health conditions. It ensures that all healthcare providers involved in a patient's care are informed and updated about the patient's health status and treatment plan.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Behavioral Health Alcohol Use Brief Intervention Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The percentage of behavioral health patients with alcohol abuse who received a brief intervention during their inpatient stay.A brief intervention is a short, evidence-based, structured conversation about alcohol consumption that seeks to motivate individuals to change their drinking behavior. It can take place in a variety of settings, such as primary care clinics or hospital emergency rooms, and is typically conducted by healthcare professionals like doctors, nurses, or social workers.This rate is an important measure of preventative healthcare services. It helps to identify and address alcohol abuse at an early stage, preventing or reducing the risk of more severe health consequences.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Behavioral Health Tobacco Use Treatment at Discharge Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The percentage of patients who use tobacco and at discharge (1) received or refused a referral for outpatient counseling AND (2) received or refused a prescription for medications to help them quit or had a reason for not receiving medication.The treatment plan can include various strategies like nicotine replacement therapy, medications, counseling, or referral to tobacco cessation programs.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Behavioral Health Physical Restraint Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the hours that patients spent in physical restraints for every 1,000 hours of patient care. Physical restraint refers to any manual method or device that immobilizes or reduces the ability of patients to move their arms, legs, body, or head.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Behavioral Health Seclusion Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the hours that patients spent in seclusion for every 1,000 hours of patient care.Seclusion is the practice of confining a patient in a room or area from which they are physically prevented from leaving. Like physical restraint, the use of seclusion is generally minimized in healthcare settings and is typically used only when less restrictive methods have been unsuccessful and there's an immediate risk of harm to the patient or others.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Home Health Acute Care Hospitalization Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of patients admitted to the hospital while under the care of the Home Health team.The goal of home health care is often to prevent hospitalizations by providing appropriate and timely care at home. Therefore, a lower acute care hospitalization rate generally indicates more effective home health care.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart Self Scheduled Visit Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is the percentage of visits self-scheduled by patients in MyChart. Visits scheduled by patients are more efficient and patients are able to choose the time that works best.  The numerator is the number of visits that were self-scheduled online via MyChart. The denominator is the number of visits enabled for self-scheduling online via MyChart using direct or ticket scheduling workflows. Only visits enabled for direct scheduling and ticket scheduling are included in the denominator. Ticket scheduling is only enabled for appointments at hospital outpatient departments.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Digital Payment Rate
+        description: | 
+          **Alias**: Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the percentage of Hospital billing and Professional billing self-pay payments collected through self-service workflows. The numerator is the count of hospital billing and professional billing self-pay payments collected through self-service workflows (MyChart Billing, MyChart One-Touch, MyChart pay as guest, MyChart Visit payment, MyChart eCheck-in, Welcome Balance Payment, Welcome Check-in,  and two-way SMS) for a given post date.  MyChart payments include all payments posted online whether or not the guarantor logged in (original payments only, reversals and reposts are excluded).  The denominator is the count of hospital billing and professional billing self-pay payments collected by post date.  Includes original payments (original payments only, reversals and reposts are excluded).
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Leapfrog Hospital Survey Rating 
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The Leapfrog Hospital Survey uses national performance measures to evaluate individual hospitals on safety, quality, and efficiency. For more information:  https://ratings.leapfroggroup.org/
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Self-Scheduled Appointments Completed Off-Hours Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is a percentage of visists scheduled via MyChart using the direct or ticket scheduling workflows that were booked outside the normal business hours of Monday through Friday 8am-5pm.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart Successful Scheduling Attempt Count
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric captures the count of scheduling attempts that were successful via MyChart.  All online scheduling workflows are included except where the Reason for Visit was requesting a specialty appointment, since by definition a request cannot result in successfully scheduling an appointment online.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart Mobile User Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric has a numerator of the number of unique users that have logged in to a MyChart mobile application.  The denominator is the total number of users that have logged in to MyChart.  This metric includes users that have only accessed patient data from a remote portal.This rate can provide insights into patients' preferred methods of accessing their health information and interacting with their healthcare providers.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart Utilization Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric has a numerator of the number of unique patients that had a login session in MyChart.  The denominator is the count of patients that have an active MyChart account and includes patients for whom a proxy has access, even if the patient cannot access their own account.The utilization rate can indicate how well a healthcare system is doing in promoting patient engagement and use of digital health tools.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: MyChart eCheckIn Success Rate
+        description: | 
+          **Alias**: Processes
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: The metric captures the rate of successful self check-in attempts through the patient portal. Numerator: The number of self check-in attempts that were successful through MyChart.  Denominator: The total number of self check-in attempts through MyChart.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Length of Stay Inpatient Average
+        description: | 
+          **Alias**: LOS, Process
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric is the average time (in days) between admission and discharge for each relevant inpatient encounter.  This excludes: 1. Preadmission ADT patient status 2. Admission statuses outside complete or confirmed 3. Open, voided, and combined HAR statuses 4. HAR types that are not HB/Mixed 5. Newborn DRG Codes 6. Encounters with missing GMLOS values 7. Outlier LOS Encounters (greater than 180 days in length) 8. Any patient class that is not InpatientThis average can provide insights into the efficiency and effectiveness of care, as well as the types of conditions being treated. A shorter length of stay may indicate more efficient care, but it could also reflect a focus on treating less severe conditions that require less time in the hospital. A longer length of stay could indicate difficulties of transferring patients to rehab, skilled nursing facility, or long term care.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Hospital Complication Risk Adjusted Observed vs Expected Ratio
+        description: | 
+          **Alias**: O/E, Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is a ratio comparing the hospital observed encounters with complications versus the hospital expected encounters with complications based on acuity factors. The numerator is the count of unique complications for all Clinical Clusters that occurred.  The expected complication value is calculated using the Midas Risk Adjusted Model for all Clinical Clusters. A value greater than 1.0 indicates the complication rate is worse than expected.  Values less than 1.0 indicates the complication rate is better than expected.
+
+          **Business Logic**: N/A
+        domain: Executive
+      - name: Hospital Mortality Risk-Adjusted Observed vs Expected Ratio
+        description: | 
+          **Alias**: O/E, Patients
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is a ratio comparing the hospital  observed mortality versus the hospital expected mortality among acute care inpatient encounters. The numerator is the count of the actual encounters for all Clinical Clusters where the patient died.  The expected value is calculated using the Midas Risk Adjusted Model for all Clinical Clusters. A value greater than 1.0 indicates the mortality rate is worse than expected.  Values less than 1.0 indicates the mortality rate is better than expected.
+
+          **Business Logic**: N/A
+        domain: Executive

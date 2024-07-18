@@ -421,7 +421,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: This metric measures the Net Promoter Score (NPS) for the email/phone survey question, How likely would you be to recommend this office to your family and friends?.  The NRC Health Patient Experience Survey is sent to a patients that have had an ambulatory visit. This measure is captured for the past rolling 3 months.
+          **Description**: This metric measures the Net Promoter Score (NPS) for the email/phone survey question, "How likely would you be to recommend this office to your family and friends?".  The NRC Health Patient Experience Survey is sent to a patients that have had an ambulatory visit. This measure is captured for the past rolling 3 months.
 
           **Business Logic**: N/A
         domain: Executive

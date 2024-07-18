@@ -454,7 +454,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: Percentage of encounters with an unplanned readmission to the same facility within 30 days  for any cause among encounters for acute care inpatients with a principal discharge diagnosis/procedure for a clinical classification category in the Cardiorespiratory, Cardiovascular, Medicine, Neurology, or Surgery/Gynecology cohort. The readmission could be for any reason, not necessarily related to the initial cause of hospitalization. A high readmission rate can indicate issues with the quality or effectiveness of care, or patients compliance with post-discharge instructions.
+          **Description**: Percentage of encounters with an unplanned readmission to the same facility within 30 days for any cause among encounters for acute care inpatients with a principal discharge diagnosis/procedure for a clinical classification category in the Cardiorespiratory, Cardiovascular, Medicine, Neurology, or Surgery/Gynecology cohort. The readmission could be for any reason, not necessarily related to the initial cause of hospitalization. A high readmission rate can indicate issues with the quality or effectiveness of care, or patient's compliance with post-discharge instructions.
 
           **Business Logic**: N/A
         domain: Executive
@@ -553,7 +553,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: The Leapfrog Hospital Safety Grade uses up to 30 national performance measures from the Centers for Medicare & Medicaid Services (CMS), the Leapfrog Hospital Survey and information from other supplemental data sources. Taken together, those performance measures produce a single letter grade representing a hospitals overall performance in keeping patients safe from preventable harm and medical errors. For more information about the methodology: https://www.hospitalsafetygrade.org/your-hospitals-safety-grade/about-the-grade
+          **Description**: The Leapfrog Hospital Safety Grade uses up to 30 national performance measures from the Centers for Medicare & Medicaid Services (CMS), the Leapfrog Hospital Survey and information from other supplemental data sources. Taken together, those performance measures produce a single letter grade representing a hospital's overall performance in keeping patients safe from preventable harm and medical errors. For more information about the methodology: https://www.hospitalsafetygrade.org/your-hospitals-safety-grade/about-the-grade
 
           **Business Logic**: N/A
         domain: Executive
@@ -685,7 +685,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: This metrics calculates the percentage of Home Health patients who were seen in their home within two days of being referred to home health care.The time window begins either 1) on the date the doctor ordered 2) the day the agency was notified of the order or 3) coming home from the hospital or other facility. The doctors order may or may not specify a start date. If the order doesnt include a specific start date, home health care should start either within 2 days after the agency was notified of the order or the date the patient was discharged.
+          **Description**: This metrics calculates the percentage of Home Health patients who were seen in their home within two days of being referred to home health care.The time window begins either 1) on the date the doctor ordered 2) the day the agency was notified of the order or 3) coming home from the hospital or other facility. The doctor's order may or may not specify a start date. If the order doesn't include a specific start date, home health care should start either within 2 days after the agency was notified of the order or the date the patient was discharged.
 
           **Business Logic**: N/A
         domain: Executive

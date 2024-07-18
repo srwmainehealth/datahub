@@ -4,7 +4,7 @@ owners:
     - glossarysuperuser
 nodes:
   - name: Quality and Regulatory
-    id: urn:li:glossaryNode:uuid_executive
+    id: urn:li:glossaryNode:uuid-executive
     description: This folder contains all the Quality and Regulatory dashboards, metrics, and terms.
     terms:
       - name: Ethnic Background Screening Rate

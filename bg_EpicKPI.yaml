@@ -1,7 +1,7 @@
 version: 1 
 owners: 
   users: 
-    - alison.knight@prominenceadvisors.com
+    - mhuser
 nodes:
   - name: Epic KPI
     description: This is a test of the import functionality 

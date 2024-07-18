@@ -1,0 +1,207 @@
+version: 1 
+owners: 
+  groups: 
+    - glossarysuperuser
+nodes:
+  - name: MaineHealth Accountable Care Organization
+    id: urn:li:glossaryNode:47990603286362442e962ba5d71390eb
+    description: This folder contains all the MHACO dashboards, metrics, and terms.
+    terms:
+      - name: Coded Risk Adjustment Factor Average
+        description: | 
+          **Alias**: Coded RAF
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric represents the average Risk Adjustment Factor (RAF) for the population of interest.  This metric aids in understanding the medical complexity of the patients within the population.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Coded Risk Adjustment Factor
+        description: | 
+          **Alias**: RAF, Risk Adjustment
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: Risk Adjustment Factor (RAF) represents an individual's medical complexity, or acuity, in the form of financial risk.  It is important that providers and payers have a clear understanding of the complexities of the population as a criticalmeasure to evaluate performance, set benchmarks, etc. Risk Adjustment models can vary widely and be used in many different contexts including financial models, quality models, and accountable care organizations.  For MHACO, we use the Risk Adjustment models provided by ARCADIA, specifically the CMS-HCC v24 model which aligns with the medicare population.  The risk data includes demographic risk scores, current and historical claims and encounters.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Per Member Per Month Cost
+        description: | 
+          **Alias**: PMPM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Per Member Per Month metrics are calculated by dividing the total healthcare expenses incurred during a specific period by the total number of member months during that same period. This metric provides a standardized way to compare costs across different populations and allows for better financial planning and budgeting.This metric can be shown as a total cost or calculated as an average to show trends over time.
+
+          **Business Logic**: PMPM = Total claims expense / total member months
+        domain: MaineHealth Accountable Care Organization
+      - name: Per Member Per Month Medical Cost
+        description: | 
+          **Alias**: Med PMPM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric (Med PMPM) represents the monthly cost per member for medical expenses which includes outpatient and inpatient expenses.  This metric provides a standardized way to compare medical cost across different populations and is also helpful in separating the costs out from retail pharmacy costs. This metric can be shown as a total cost or calculated as an average to show trends over time.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Per Member Per Month Retail Pharmacy Cost
+        description: | 
+          **Alias**: Rx PMPM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric (Rx PMPM) represents the monthly cost per member related to retail pharmacy costs.  This metric provides a standardized way to compare pharmacy cost across different populations and is also useful in delinating retail pharmacy  from medical costs. This metric can be shown as a total cost or calculated as an average to show trends over time.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Member Cost
+        description: | 
+          **Alias**: Cost
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: Cost represents the total  paid amount for a member during a given time period.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Medical Cost
+        description: | 
+          **Alias**: Med Cost
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: This term describes all medical costs including outpatient visits, procedures, and inpatient stay costs. This excludes retail pharmacy costs.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Retail Pharmacy Cost
+        description: | 
+          **Alias**: Rx Cost
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: This term describes all the costs associated with outpatient prescriptions that are purchased at a retail pharmacy.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Members Total Cost
+        description: | 
+          **Alias**: Total Cost
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: This metric represents the total healthcare costs including both medical costs and retail pharmacy cost for the member population for the specified period.  This measure could also be represented by a percentage of the total population costs.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: High Cost Claimant
+        description: | 
+          **Alias**: HCC
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: MaineHealth defines this as patients who have a total cost greater than or equal to $50,000 per service year. This is a categorization that can be used to identify patients that are outliers in total cost of care.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: High Cost Claimant Percentage
+        description: | 
+          **Alias**: % of High Cost Claimant
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is a percentage of members with claims that are classified as high cost claimants.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Annualized Member Count
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This term is a sum of the member months divided by the number of months in a calendar year. This is used when reporting on partial years or multiple years in order to display the annual member count total.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Accountable Care Organization Member
+        description: | 
+          **Alias**: Member
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: This term includes any patient who is attributed to an ACO provider by the payer
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Member Months
+        description: | 
+          **Alias**: N/A
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: Member month refers to the number individuals participating in an insurance plan for the month. Member months are used as a denominator for per member per month metrics.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Region Hierarchy
+        description: | 
+          **Alias**: Region, LHS, Practice
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: This categorization includes health system regions that then subdivides to local health systems, and then further subdivides to a practice, and finally subdivides to primary care provider. These types of categorizations can be helpful when understanding differences in performance across the health system.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Service Year
+        description: | 
+          **Alias**: Service Period
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: This term is defined as the calendar year that the patient was attributed to the Accountable Care Organization.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Payer
+        description: | 
+          **Alias**: N/A
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: Payers in the health care industry are organizations � such as health plan providers, Medicare, and Medicaid � that set service rates, collect payments, process claims, and pay provider claims.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization
+      - name: Service Category
+        description: | 
+          **Alias**: Cost Category
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: This allows categorization of costs by type of service. At the highest category, this breaksdown to inpatient, outpatient, and retail pharmacy.
+
+          **Business Logic**: N/A
+        domain: MaineHealth Accountable Care Organization

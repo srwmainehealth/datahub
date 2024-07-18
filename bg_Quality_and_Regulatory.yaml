@@ -1,0 +1,394 @@
+version: 1 
+owners: 
+ groups: 
+    - glossarysuperuser
+nodes:
+  - name: Quality and Regulatory
+    id: urn:li:glossaryNode:aa3dac6b3-e727-483e-aca6-279519393d6c
+    description: This folder contains all the Quality and Regulatory dashboards, metrics, and terms.
+    terms:
+      - name: ACEs Score Rate 
+        description: | 
+          **Alias**: ACEs, Adverse Childhood Experiences Score
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the proportion of patients aged 3-17 who had a well-child visit in the last year and also had their Adverse Childhood Experiences (ACEs) score documented within the same period.  This metric is vital as it helps identify children at risk of trauma, enabling early interventions and potentially preventing long-term negative health impacts.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Adult Body Mass Index Rate 
+        description: | 
+          **Alias**: BMI
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric refers to the proportion of patients aged 18 or older at the start of the measurement period who had a visit in the last year, and their Body Mass Index (BMI) was documented in that year.  Regular monitoring of BMI in adults is crucial for early identification and management of weight-related health risks, such as diabetes, cardiovascular diseases, and certain types of cancer.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Advance Care Planning Documentation Rate
+        description: | 
+          **Alias**: ACP, Advance Care Directive, POLST
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the proportion of patients aged 65 or older at the start of the measurement period who had a visit in the last year and had an Advance Care Directive, Physician Orders for Life-Sustaining Treatment (POLST), or Serious Illness Conversation on file.  This metric is important as it ensures patient autonomy in healthcare decisions, particularly in end-of-life care scenarios, thus improving patient satisfaction and quality of care.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Well Child Visit Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the percentage of pediatric patients at a given age interval that had the appropriate number of well child visits. For patients under 2 years old, this measures the number of patients who turned 15 months old within the last year and had at least six well-child visits in the same period.  For patients 2 through 11 years old, this measures the number of patients who had a well-child visit in the last 13 months. For patients 12 through 20 years old, this measures the number of patients who had a well-child visit in the last 13 months.Regular well-child visits during the first years of life are crucial for monitoring child growth and development, and for timely immunizations, thus ensuring the overall well-being of the child.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Medicare Annual Wellness Visit Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measures the percentage of Medicare or Medicare Advantage patients  who had a Annual Wellness Visit in the last year. This metric is important as annual wellness visits provide an opportunity for preventive care and chronic disease management, thus improving health outcomes in older adults.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Asthma Controller Medication Rate 
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the proportion of patients aged 2 through 18 years old with persistent asthma who were seen in their primary care office in the last year and are currently on a controller medication or were prescribed one within the same period. Proper management of asthma, including regular use of controller medications, can significantly reduce the frequency and severity of asthma attacks, improving the quality of life for these patients.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Lead Screening Pediatric Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metrics calculates the percentage of pediatric patients that were screened for lead exposure.  This metric is calculated for two distinct age groups: patients around 1 year old and patients around 2 years old. For patiens around 1 year old, this metric specifically calculates the proportion of patients who turned 18 months old within the last year and had a blood lead test resulted between 9 and less than 18 months of age.   For patients around 2 years old, this metric calculates the proportion of patients who turned 36 months within the last year and had a blood lead test resulted 18 and less than 36 months of age. Blood lead tests are critical for early detection of lead exposure which can affect a child's cognitive development and behavior.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Breast Cancer Screening Rate 
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the percentage of female patients aged 50 through 74 who were seen in the last year and had a mammogram within the last 27 months. Regular mammograms are important for early detection of breast cancer, which can improve treatment outcomes and survival rates.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Colorectal Cancer Screening Rate 
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the percentage of patients aged 45 through 75 who were seen in the last year and had appropriate screening for colorectal cancer. Regular colorectal cancer screenings can help detect the disease at an early stage, when treatment is most likely to be successful.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: CRAFFT Adolescent Substance Use Screening Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the percentage of patients aged 12 through 21 who had a well-child visit or physical in the last year and had a CRAFFT (Car, Relax, Alone, Forget, Friends, Trouble) screening within the same year.  The CRAFFT screening tool is used to assess substance use and abuse in adolescents, assisting in early detection and intervention.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Depression Screening and Follow-up Plan Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to patients aged 12 and above who were seen in their primary care office and screened for depression in the last year, and if positive, have a documented follow-up plan within 2 days.  A follow-up plan for patients screened positively for depression ensures ongoing care and management, which is crucial for improving mental health outcomes.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Developmental Screening Rate 
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This calculates the percentage of patients aged 12 through 35 months who were seen for a well-child visit in the last year and had a Survey of Wellbeing of Young Children (SWYC) or Ages and Stages Questionnaire (ASQ) assessment within an age-appropriate range.  These assessments help monitor the developmental progress of young children, allowing for early identification of potential developmental delays.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Diabetes Eye Exam Rate
+        description: | 
+          **Alias**: DM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This calculates the percentage of  patients with diabetes mellitus (DM), aged 18-75, seen in the last year who had an eye exam within the appropriate time frame.  Regular eye exams are essential for patients with diabetes as they are at increased risk of eye complications such as diabetic retinopathy, which can lead to vision loss if not detected and treated early.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Diabetes Hemoglobin A1c Poor Control Rate
+        description: | 
+          **Alias**: DM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This calculates the percentage of patients with diabetes mellitus (DM), aged 18-75, seen in the last year whose most recent Hemoglobin A1C (HbA1C) level is > 9 or no A1C reading is available.  Regular monitoring of A1C levels is crucial for managing diabetes as it provides an average of blood glucose control over the past 2-3 months. High A1C levels (>9) indicate poor diabetes control, increasing the risk of complications.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Diabetes Kidney Health Screening Rate 
+        description: | 
+          **Alias**: DM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This calculates the percentage of patients with diabetes mellitus (DM) aged 18-75 seen in the last year who had a microalbumin creatinine ratio and estimated Glomerular Filtration Rate (eGFR) assessment within the same year.  Regular kidney function tests (microalbuminuria and eGFR) are crucial for early detection of diabetic nephropathy, a common complication of diabetes that can lead to kidney failure if not managed properly.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Diabetes Statin Therapy Rate
+        description: | 
+          **Alias**: DM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This calculates the percentage of patients with diabetes mellitus (DM) aged 40-75 seen in the last year who have an active statin medication of any intensity on their medication list.  Statin therapy is recommended for most patients with diabetes aged 40-75 to lower the risk of cardiovascular disease.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Severe Obesity Documentation Rate
+        description: | 
+          **Alias**: BMI
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the percengtage of patients aged 18 and above at the start of the measurement period who had a visit in the last two years, with a Body Mass Index (BMI) >= 40, and severe obesity documented on their problem list.  Identifying and documenting severe obesity is critical for implementing appropriate interventions and managing obesity-related health risks.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Fall Risk Documentation Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the proportion of patients aged 65 and older seen within the last year who have either falls question documented in the last year.  Regular screening for falls in older adults is crucial for identifying individuals at risk of falls, enabling early interventions to prevent injuries and improve quality of life.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Food Insecurity Screening Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of patients who who had a well-child visit, physical, or Annual Wellness Visit (AWV) in the last year and were screened for food insecurity in the same year. This metric is calculated for adults (18 years and older) and pediatric patients (birth through 17 years old).  Screening for food insecurity can help identify individuals and families who lack access to sufficient, nutritious food, allowing healthcare providers to connect them with appropriate resources.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Human Papillomavirus Vaccination Series Rate
+        description: | 
+          **Alias**: HPV
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the proportion of patients that are 13 years old and have completed their Human Papillomavirus (HPV) vaccinations.  Completing the HPV vaccination series by age 13 provides early protection against types of HPV that can cause cancer or genital warts.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Blood Pressure Control in Hypertension Patient Rate
+        description: | 
+          **Alias**: BP
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric measures the percentage of hypertension (HTN) patients aged 18-85 seen within the last year whose most recent Blood Pressure (BP) reading is < 140/90.  Regular monitoring of blood pressure in HTN patients is crucial for managing the condition and preventing complications, such as heart disease and stroke.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Blood Pressure Recheck in Hypertension Patient Rate
+        description: | 
+          **Alias**: BP
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to percentage of hypertension (HTN) patients seen in the last month with an initial Blood Pressure (BP) of Systolic >= 140 OR Diastolic >= 90, who were given a BP recheck.  Regular rechecks of blood pressure are crucial for accurate diagnosis and management of hypertension, reducing the risk of cardiovascular diseases.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Blood Pressure Follow-up in Hypertension Patient Rate
+        description: | 
+          **Alias**: BP
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to the percentage of HTN patients seen in the last month with an initial BP of Systolic >= 140 OR Diastolic >= 90, who were not given a BP recheck or had a second high BP, and had a follow-up appointment scheduled within 4 weeks of the elevated BP.  Timely follow-up for patients with persistent high BP ensures ongoing care and adjustment of treatment plans, which is crucial for controlling BP and preventing complications.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Influenza Vaccination Rate
+        description: | 
+          **Alias**: Flu
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of patients aged 6 months and older who had a visit between October 1 and March 31 and received their seasonal influenza vaccination.  Seasonal flu vaccination is the most effective way to prevent influenza and its potentially serious complications.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Diabetes Long Acting Insulin Protocol Referral Rate
+        description: | 
+          **Alias**: DM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measures shows the percentages of patients with type 2 diabetes mellitus (DM) aged 18-75 on insulin, seen within the last year, with any Hemoglobin A1C (HbA1C) > 8, who are referred to the Long Acting Insulin Protocol.  Referral to a Long Acting Insulin Protocol ensures patients receive an appropriate treatment plan for managing high blood sugar levels, reducing the risk of diabetes complications.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Low Severity Emergency Department Visit Rate
+        description: | 
+          **Alias**: ED
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This is the percentage of Emergency Department (ED) visits in the last year, for Maine Health Primary Care Provider (MH PCP) patients, with an Emergency Severity Index (ESI) score of 4 or 5.  Tracking ED visits by severity can help identify opportunities for improving care coordination and preventing unnecessary ED visits, particularly for patients with mental health conditions.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Meningococcal Vaccination Rate
+        description: | 
+          **Alias**: Meningitis
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of patients who are 13 years old and have completed their meningococcal vaccination between their 11th and 13th birthdays.  Completing the meningococcal vaccination series provides protection against meningococcal disease, which can cause serious illnesses such as meningitis.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Oral Health Fluoride Varnish Rate
+        description: | 
+          **Alias**: Teeth
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric calculates the percentage of patients between 2-21 years old, seen in the last year, that received fluoride varnish treatment within the same year.  Regular fluoride varnish treatments can help prevent tooth decay in children and adolescents.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Immunization Series Complete by Age 2 Pediatric Rate 
+        description: | 
+          **Alias**: Vaccine
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This refers to patients who are 2 years of age and received the following immunizations before age two: four diphtheria, tetanus, and acellular pertussis (DTaP); three polio (IPV); three hepatitis B (Hep B); four H. influenza type B (HiB); four pneumococcal conjugate (PCV); one measles, mumps, and rubella (MMR); one chicken pox (VZV) one hepatitis A (hep A) two or three rotavirus and two flu.  Ensuring a child receives all recommended immunizations by age 2 protects them from a variety of serious or potentially fatal diseases.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Abbreviated Post Traumatic Stress Disorder Reaction Index (aPTSDRi) Screening Pediatric Rate
+        description: | 
+          **Alias**: PTSD
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of patients from birth through age 17 who screened positive for trauma in the last year and had the abbreviated PTSD Reaction Index (aPTSDRI) completed during their positive trauma visit.  The aPTSDRI is a key tool for assessing the impact of traumatic experiences on children and adolescents, informing appropriate interventions and support.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Trauma Screening Pediatric Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of patients from birth through age 17 seen in the last year for a well-child visit who had a trauma screening in the same year.  Regular trauma screenings can help identify children and adolescents who may be experiencing or have experienced traumatic events, enabling early intervention and support.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Opioid Monitoring Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of patients requiring opioid monitoring who had a urine tox, Prescription Monitoring Program (PMP) screening, brief pain survey or Pain, Enjoyment, General activity (PEG) scale, and controlled substance agreement in the last year as well as at least one opioid consent and risk assessment documented all time.  Regular opioid monitoring is crucial for safe and effective opioid prescribing, reducing the risk of opioid misuse and addiction.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Substance Use Screening Rate
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of patients aged 18 and above at the start of the measurement period who had a physical or Annual Wellness Visit (AWV) in the last year, and who had a substance use screening in the same year.  Substance use screenings can help identify individuals who may be struggling with substance use, allowing for early intervention and treatment.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Tetanus, Diphtheria, and Pertussis Vaccination Rate
+        description: | 
+          **Alias**: Tdap
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of  patients who are 13 years old and have completed their Tetanus, Diphtheria, and Pertussis (Tdap) vaccination between their 10th and 13th birthdays.  Completing the Tdap vaccination series provides protection against three serious diseases caused by bacteria: tetanus, diphtheria, and pertussis.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory
+      - name: Tobacco Screening and Cessation Counseling Rate
+        description: | 
+          **Alias**: Nicotine
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This measure calculates the percentage of  patients aged 18 and above who were screened for tobacco use within the last 2 years and if identified as a smoker, received cessation counseling.  Regular tobacco use screenings and cessation counseling for smokers are critical components of preventive healthcare, reducing the risk of tobacco-related diseases and improving overall health.
+
+          **Business Logic**: N/A
+        domain: Quality and Regulatory

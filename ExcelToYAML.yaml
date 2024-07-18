@@ -619,7 +619,7 @@ nodes:
           **Epic ID**: N/A
 
 
-          **Description**: This metric is a count of select patient harm events that are reviewed in real-time and shared institutional-wide to raise awareness and address causative factors. Patient harm events include patient falls with injury, healthcare associated infections, sentinel events, and patient safety indicators. Further information and criteria for each event are defined by the following external reporting agencies: the Agency of Healthcare Quality & Research, the American Nursing Association National Database of Nursing Quality Indicators, the Maine Department of Health and Human Services Services and US CDC's National Healthcare Safety Network.A lower harm event count is an indicator of safer, higher-quality care.
+          **Description**: This metric is a count of select patient harm events that are reviewed in real-time and shared institutional-wide to raise awareness and address causative factors. Patient harm events include patient falls with injury, healthcare associated infections, sentinel events, and patient safety indicators. Further information and criteria for each event are defined by the following external reporting agencies: the Agency of Healthcare Quality & Research, the American Nursing Association National Database of Nursing Quality Indicators, the Maine Department of Health and Human Services and US CDC's National Healthcare Safety Network. A lower harm event count is an indicator of safer, higher-quality care.
 
           **Business Logic**: N/A
         domain: Executive

@@ -4,7 +4,7 @@ owners:
     - glossarysuperuser
 nodes:
   - name: MaineHealth Accountable Care Organization
-    id: urn:li:glossaryNode:47990603286362442e962ba5d71390eb
+    id: urn:li:glossaryNode:uuid-mhaco
     description: This folder contains all the MHACO dashboards, metrics, and terms.
     terms:
       - name: Coded Risk Adjustment Factor Average

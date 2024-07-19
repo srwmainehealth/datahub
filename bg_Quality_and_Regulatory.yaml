@@ -4,7 +4,7 @@ owners:
     - glossarysuperuser
 nodes:
   - name: Quality and Regulatory
-    id: urn:li:glossaryNode:aa3dac6b3-e727-483e-aca6-279519393d6c
+    id: urn:li:glossaryNode:uuid-quality
     description: This folder contains all the Quality and Regulatory dashboards, metrics, and terms.
     terms:
       - name: ACEs Score Rate 

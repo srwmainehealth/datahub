@@ -1,10 +1,11 @@
 version: 1 
 owners: 
-  users: 
-    - mhuser
+ groups: 
+    - glossarysuperuser
 nodes:
   - name: Epic KPI
-    description: This is a test of the import functionality 
+    id: urn:li:glossaryNode:uuid-epic-kpi
+    description: This folder contains all the Epic KPI dashboards, metrics, and terms. 
     terms:
       - name: eCQM - CMS 334 (PC-02)
         description: | 

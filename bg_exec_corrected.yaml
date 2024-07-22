@@ -3,7 +3,7 @@ owners:
   groups: 
     - glossarysuperuser
 nodes:
-  - name: Quality and Regulatory
+  - name: Executive
     id: urn:li:glossaryNode:uuid-executive
     description: This folder contains all the Quality and Regulatory dashboards, metrics, and terms.
     terms:

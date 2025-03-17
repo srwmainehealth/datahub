@@ -1,0 +1,59 @@
+﻿Name,Description,Domain,Subdomain,Alias,Type,Business Logic,Operational Owner,Operational SME,Technical SME
+Billed Patient Days,Count of Billed Inpatient Hospital Days,Stratajazz,Decision Support,Billing Data,Metric,"Patient Type: Not in 119 - Swing Outpatient 120 - Swing Inpatient - Critical Access 2 - Swing Inpatient - Non Critical Access
+SBO HAR Type: 0 - HB - Mixed
+Patient Encounter - Is Non Zero Charge: (All)
+UB Revenue Code: Between 0001 and 0219
+Post Date - Month: (User Defined)
+Post Date - Fiscal Year: (User Defined)",Frank Isakson,Christy Plummer,Stan Jakubowski
+Discharges,Count of Cases by Discharge Date,Stratajazz,Decision Support,Billing Data,Metric,"Patient Type: Not in 119 - Swing Outpatient  120 - Swing Inpatient - Critical Access  2 - Swing Inpatient - Non Critical Access
+SBO HAR Type: 0 - HB - Mixed
+Patient Encounter - Is Non Zero Charge: Yes
+UB Revenue Code: Between 0001 and 0219
+Discharge Date - Month: (User Defined)
+Discharge Date - Fiscal Year: (User Defined)",Frank Isakson,Christy Plummer,Stan Jakubowski
+Average Length of Stay,Billed Patient Days / Discharges,Stratajazz,Decision Support,Billing Data,Metric,"Finance ALOS Definition: Billed Patient Days / Discharges
+Logic used for each stat above",Frank Isakson,Christy Plummer,Stan Jakubowski
+Case Mix Index,CMI by Entity,Stratajazz,Decision Support,Billing Data,Metric,"SBO HAR Type: 0 - HB - Mixed
+Patient Encounter - Is Non Zero Charge: Yes
+UB Revenue Code: Between 0001 and 0219
+Discharge Date - Month: (User Defined)
+Discharge Date - Fiscal Year: (User Defined)
+Patient Type - Rollup: Inpatient
+MS DRG: Not in 000 - Not Specified  998 - PRINCIPAL DIAGNOSIS INVALID AS DISCHARGE DIAGNOSIS",Frank Isakson,Christy Plummer,Stan Jakubowski
+FTEs,FTEs by LOB (Excluding Contract Labor and Intercompany),Stratajazz,Decision Support,GL/Payroll Data,Metric,"Fiscal Year - Fiscal Year: (User Defined)
+Fiscal Month - Fiscal Month: (User Defined)
+Time Class - Time Class: Actual  Budget
+Job Code - Job Code Group: Not in CONTRACT  CONTRACTCNA  CONTRACTDR  CONTRACTLPN  CONTRACTMIDLEVEL  CONTRACTNONCLIN  CONTRACTOTHCLIN  CONTRACTRN  CONTRACTCRNA  ICT APP  ICT DRs  ICT MedDir  ICT OtherProvider  ICT Staff
+MR Department - Department Rollup 1 (MHMG): Physician Practices  Transitional MHMG Practices  MMC AMG  MG LOB Eliminations
+MR Department - Department Rollup 1 (Non-MG): Not in Physician Practices  Transitional MHMG Practices  MMC AMG  MG LOB Eliminations",Frank Isakson,Christy Plummer,Stan Jakubowski
+OR Cases,Count of OR Procedures (Excluding Cath/Endo for most entities),Stratajazz,Decision Support,OR Log,Metric,"Surgery Start Date - Fiscal Year: (User Defined)
+Surgery Start Date - Month: (User Defined)
+Surgical Procedure - Name: Not Equals 0 - Not Specified
+Log Location - Log Location (Include these Log Locations): Not in 10740601 - SMHC BID ENDO  10740603 - SMHC KEN ENDO  1180000424 - SMHC BID CATH LAB  1070000019 - WCGH PROCEDURAL AREA  11840501 - MCH CATH LAB  10740502 - MCH Digestive Health  10440503 - MCH OUTPATIENT SURGERY  107406 - PBMC ENDO  987 - FMH ENDO  1070000001 - MMC ENDOSCOPY  1071000997 - MMC BMC ENDO  1071130001 - MMC CATH LABS  118113001 - MMC EP LABS  1071002001 - MMC MFT PROCEDURE FLOOR
+Log Room - Log Room (MMC MFT - Surgical): Not in MMC MFT PROCEDURE ROOM 41  MMC MFT PROCEDURE ROOM 42  MMC MFT PROCEDURE ROOM 43  MMC MFT PROCEDURE ROOM 44  MMC MFT PROCEDURE ROOM 45  MMC MFT PROCEDURE ROOM 46  MMC MFT PROCEDURE ROOM 47  MMC MFT PROCEDURE ROOM 48  MMC MFT PROCEDURE ROOM 49
+Surgical Procedure - Surgical Procedure Code (MMC MFT - Surgical): DoesNotStartWith CATHLAB",Frank Isakson,Christy Plummer,Stan Jakubowski
+Billed Overnight OP Days,Equivalent Days for OPs in bed past midnight,BI,Enterprise Reporting,ADT Data,Metric,"1. Based on Discharge Date
+2. Must stay in a bed past mid-night
+3. Patient’s final class must observation or bedded outpatient
+4. Count of hours from time of registration as patient class bedded outpatient or
+observation to discharge
+5. Exclude hours for bedded outpatients in a location that regularly recovers
+patients (i.e. PACU  Cath Lab  etc.)",Enterprise Analytics,,
+Bedded OP Cases,Count of OP bedded/observation patient type,Stratajazz,Decision Support,Billing Data,Metric,"Discharge Date - Fiscal Year: (User Defined)
+Discharge Date - Month: (User Defined)
+SBO HAR Type: 0 - HB-Mixed
+Patient Encounter - Is Non Zero Charge: (All)
+UB Revenue Code - Code: (All)
+Patient Type - Patient Type (Total): 31000001 - Bedded Outpatient  104 - Observation",Frank Isakson,Christy Plummer,Stan Jakubowski
+ED Visits,Count of ED Level charges by Admit date,BI,Enterprise Reporting,ADT Data,Metric,"	
+1. Based on Date of Service
+2. Patients have an ""ED Arrival"" Event
+3. ""Arrival Time"" is in report date range
+4. Location is determined by ED Department Location
+5. Count 1 for each encounter (there could potentially be more than one in a
+day)
+6. Excludes Urgent Care departments
+7. Excludes Left without Being Seen (LWBS)
+8. Excludes Clinical Decision Unit (CDU) patients",Enterprise Analytics,,
+CMI Adjusted Discharges,CMI Adjusted Discharges,Stratajazz,Decision Support,Billing Data,Metric,"Case Mix Adjusted OP Discharges + Case Mix Adjusted IP Discharges
+Template on 'Support1' Tab",Frank Isakson,Sage Shaw,Stan Jakubowski

@@ -1,0 +1,45 @@
+version: 1 
+owners: 
+  groups: 
+    - glossarysuperuser
+nodes:
+  - name: Finance
+    id: urn:li:glossaryNode:uuid-finance
+    description: Business Glossary for terms and metrics related to MaineHealth Finance.
+    terms:
+      - name: Billed Patient Days
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+		  **Group**: Billing
+
+
+          **Description**: Count of Billed Inpatient Hospital Days.
+
+          **Business Logic**: Patient Type NOT in 119 Swing Outpatient, 120 Swing Inpatient Critical Access, 2 Wing Inpatient non-Critical Access.
+        domain: Finance
+      - name: Discharges
+        description: | 
+          **Alias**: N/A
+          **Type**: Metric
+          **Epic ID**: N/A
+		  **Group**: Billing
+
+
+          **Description**: Count of cases by discharge date.
+
+          **Business Logic**: Patient Type NOT in 119 Swing Outpatient, 120 Swing Inpatient Critical Access, 2 Wing Inpatient non-Critical Access.
+        domain: Finance
+      - name: Average Length of Stay
+        description: | 
+          **Alias**: ALOS
+          **Type**: Metric
+          **Epic ID**: N/A
+		  **Group**: Billing
+
+
+          **Description**: Billed Patient Days / Discharges.
+
+          **Business Logic**: Billed Patient Days / Discharges
+        domain: Finance

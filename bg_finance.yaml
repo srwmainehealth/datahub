@@ -12,7 +12,7 @@ nodes:
           **Alias**: N/A
           **Type**: Metric
           **Epic ID**: N/A
-		  **Group**: Billing
+          **Group**: Billing
 
 
           **Description**: Count of Billed Inpatient Hospital Days.
@@ -24,7 +24,7 @@ nodes:
           **Alias**: N/A
           **Type**: Metric
           **Epic ID**: N/A
-		  **Group**: Billing
+          **Group**: Billing
 
 
           **Description**: Count of cases by discharge date.
@@ -36,10 +36,10 @@ nodes:
           **Alias**: ALOS
           **Type**: Metric
           **Epic ID**: N/A
-		  **Group**: Billing
+          **Group**: Billing
 
 
-          **Description**: Billed Patient Days / Discharges.
+          **Description**: Billed Patient Days divided by Discharges.
 
-          **Business Logic**: Billed Patient Days / Discharges
+          **Business Logic**: Billed Patient Days divided by Discharges
         domain: Finance

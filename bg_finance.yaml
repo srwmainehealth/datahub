@@ -17,6 +17,61 @@ nodes:
 
           **Description**: Count of billed inpatient hospital days.
 
-          **Business Logic**:
+          **Business Logic**: 
+            Patient Type: NOT in 119 - Swing Outpatient, 120 - Swing Inpatient Critical Access, 2 - Wing Inpatient non-Critical Access.
+            SBO HAR Type: 0 - HB Mixed
+            Patient Encounter - Is Non Zero Charge: (All)
+            UB Revenue Code: Between 0001 and 0219
+            Post Date - Month: (user defined)
+            Post Date - Fiscal Year: (user defined)
+        domain: Finance
+      - name: Discharges
+        id: Finance-Discharges
+        description: | 
+          **Alias**: 
+          **Type**: Metric
+          **Epic ID**: 
+          **Category**: Billing
 
+          **Description**: Count of cases by discharge date.
+
+          **Business Logic**: 
+            Patient Type: NOT in 119 - Swing Outpatient, 120 - Swing Inpatient Critical Access, 2 - Wing Inpatient non-Critical Access.
+            SBO HAR Type: 0 - HB Mixed
+            Patient Encounter - Is Non Zero Charge: Yes
+            UB Revenue Code: Between 0001 and 0219
+            Discharge Date - Month: (user defined)
+            Discharge Date - Fiscal Year: (user defined)
+
+        domain: Finance
+      - name: Average Length of Stay
+        id: Finance-Average-Length-of-Stay
+        description: | 
+          **Alias**: Fin ALOS
+          **Type**: Metric
+          **Epic ID**: 
+          **Category**: Billing
+
+          **Description**: Billed Patient Days / Discharges
+
+          **Business Logic**: Billed Patient Days / Discharges
+        domain: Finance
+      - name: Finance Case Mix Index
+        id: Finance-Case-Mix-Index
+        description: | 
+          **Alias**: Fin CMI
+          **Type**: Metric
+          **Epic ID**: 
+          **Category**: Billing
+
+          **Description**: CMI by Entity
+
+          **Business Logic**:
+            SBO HAR Type: 0 - HB Mixed
+            Patient Encounter - Is Non Zero Charge: Yes
+            UB Revenue Code: Between 0001 and 0219
+            Discharge Date - Month: (user defined)
+            Discharge Date - Fiscal Year: (user defined)
+            Patient Type - Rollup:  Inpatient
+            MS DRG: Not in 000 - Not Specified, 998 - Principal Diagnosis Invalid as Discharge Diagnosis
         domain: Finance

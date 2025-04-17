@@ -166,17 +166,3 @@ nodes:
             7. Excludes Left without Being Seen (LWBS)
             8. Excludes Clinical Decision Unit (CDU) patients
         domain: Finance
-      - name: CMI Adjusted Discharges
-        id: Finance-CMI-Adjusted-Discharges
-        description: | 
-          **Alias**: 
-          **Type**: Metric
-          **Epic ID**: 
-          **Category**: Billing
-
-          **Description**: CMI Adjusted Discharges
-
-          **Business Logic**:
-            Case Mix Adjusted OP Discharges + Case Mix Adjusted IP Discharges
-            Template on 'Support1' Tab
-        domain: Finance

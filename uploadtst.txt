@@ -1,0 +1,17 @@
+"OLD" CUTOFF PRIOR TO JUNE 30TH
+
+PRESENT DAY VERSUS PRE-JUNE 30TH FOR ALL SITES ACROSS ALL FOUR TYPES
+
+Open Extra small Request and assign the SCTASK to Trang
+
+XS Project Service Request
+
+Press Ganey Demographic Audits
+
+Assign to Enterprise Data Warehouse
+
+Attach file with changes, notify HTrang
+
+
+***CREATE ONE REQUEST FOR JULY PG STUFF 
+Make four SCTASKS, one for each filetype
